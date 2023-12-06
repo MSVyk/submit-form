@@ -2,7 +2,7 @@ import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { useQuery } from 'react-query';
-import { ReactQueryDevtools } from 'react-query/devtools';
+// import { ReactQueryDevtools } from 'react-query/devtools';
 import { fetchMovies } from '../lib/api';
 import '../App.css';
 
@@ -106,7 +106,7 @@ const MyForm = () => {
           </>
         )}
 
-        <ReactQueryDevtools />
+        {/* <ReactQueryDevtools /> */}
         {isError && <div>Error fetching data</div>}
       </div>
     </div>
