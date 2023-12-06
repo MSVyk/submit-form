@@ -203,6 +203,8 @@ body .page-container .form-container {
   .submission-message {
     margin-top: 2em;
     font-size: 1em;
+    height: 100%;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 600px) {
